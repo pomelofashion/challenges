@@ -1,5 +1,3 @@
-![](https://www.interchange21.com/wp-content/uploads/pomelo-logo-square.jpg =250x250)
-
 # Pomelo Coding Challenges
 
 This repository houses the coding challenges for Pomelo. 
