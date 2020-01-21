@@ -1,7 +1,9 @@
-# Pomelo. Code Challenges
+![](https://www.interchange21.com/wp-content/uploads/pomelo-logo-square.jpg =250x250)
 
-This repository houses the code challenges for Pomelo. These are
-small hands-on projects that are very relevant to the tasks you will be working on here.
+# Pomelo Coding Challenges
+
+This repository houses the coding challenges for Pomelo. 
+These are small hands-on projects that are very relevant to the tasks you will be working on.
 
 ### Ground Rules
 
@@ -13,17 +15,14 @@ small hands-on projects that are very relevant to the tasks you will be working 
 
 ### What to expect
 
-We do understand that our code challenges are time intensive and not always easy to
+We do understand that our coding challenges are time intensive and not always easy to
 execute. We do recognize and value the time and effort applicants put into their
-submission. Our Code Challenges eflect some of the tasks and skills you'd need while
-working with us. We believe that these *take-home* challenges will give you a deeper
-understanding of our product, what you'd be working on in the future and what level of
-commitment we look for in applicants.
+submission. Our Coding Challenges reflect some of the tasks and skills you'd need while
+working with us. We believe that these *take-home* challenges give you a deeper understanding of our product, what you'd be working on in the future and what level of commitment we look for in applicants.
 
 ### What we look for
 
-Rather than a complex solution, which added a million features and is written in 10,000
-lines of code, we look for:
+Rather than a complex solution, which added a million features and added 1000's of lines of code, we look for:
 
 * **Clarity:** You can write clear code that any devs could read and understand in one go
 * **Simplicity:** You can write gimmick-free and straightforward code with no ambiguities
@@ -39,7 +38,7 @@ your submission and continue the recruitment process.
 
 ### Challenges
 
-Pick the one that most suites the position you wish to apply.
+Pick the one that most suits the position you wish to apply.
 
 **Pomelo**
 
@@ -52,4 +51,4 @@ Pick the one that most suites the position you wish to apply.
 * Devops / Ansible - [](https://github.com/pomelofashion/challenges/tree/challenge-ansible)
 -->
 
-### Have fun and we look forward to your submission!
+### Have fun, and we look forward to your submission!
