@@ -25,6 +25,7 @@ Rather than a complex solution, which added a million features and added 1000's 
 * **Clarity:** You can write clear code that any devs could read and understand in one go
 * **Simplicity:** You can write gimmick-free and straightforward code with no ambiguities
 * **Defensiveness:** You can cover edge cases and treat user inputs with care
+* **Resilient:** You can gracefully handling an error and unexpected behaviour
 
 ### What happens after your submission
 
