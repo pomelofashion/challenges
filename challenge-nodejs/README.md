@@ -4,13 +4,15 @@ Welcome to the Pomelo NodeJS challenge!
 
 ## Principles & Ground Rules
 
-Please focus on those three principles while writing code: **clarity**, **simplicity** and **defensiveness**.
+Please focus on those four principles while writing code: **clarity**, **simplicity**, **defensiveness** and  **resilient**.
 
 - **Clarity**: write clear code that any developer can read and understand in one go.
 
 - **Simplicity**: write gimmick-free and straightforward code with no ambiguities.
 
 - **Defensiveness**: cover edge cases and treat user inputs with care.
+
+- **Resilient**: gracefully handling an error and unexpected behaviour.
 
 
 * We prefer well-thought-out solutions over the quick-and-dirty kind. So take your time, if you need it. A swift rejection usually matches a rushed job.
