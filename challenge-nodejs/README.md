@@ -12,7 +12,7 @@ Please focus on those four principles while writing code: **clarity**, **simplic
 
 - **Defensiveness**: cover edge cases and treat user inputs with care.
 
-- **Resilient**: gracefully handling an error and unexpected behaviour.
+- **Resilience**: gracefully handling an error and unexpected behaviour.
 
 
 * We prefer well-thought-out solutions over the quick-and-dirty kind. So take your time, if you need it. A swift rejection usually matches a rushed job.
