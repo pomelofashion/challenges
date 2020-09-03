@@ -42,6 +42,7 @@ Pick the one that most suits the position you wish to apply.
 **Pomelo**
 
 * Backend / NodeJS - [NodeJS](https://github.com/pomelofashion/challenges/tree/master/challenge-nodejs)
+* Backend / PHP - [PHP](https://github.com/pomelofashion/challenges/tree/master/challenge-php-laravel)
 <!-- * Backend / GoLang - [](https://github.com/pomelofashion/challenges/tree/challenge-golang)
 * Backend / Elixir - [](https://github.com/pomelofashion/challenges/tree/challenge-elixir)
 * Frontend / React - [](https://github.com/pomelofashion/challenges/tree/challenge-react)
