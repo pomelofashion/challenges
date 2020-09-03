@@ -4,7 +4,7 @@ Welcome to the Pomelo NodeJS challenge!
 
 ## Principles & Ground Rules
 
-Please focus on those four principles while writing code: **clarity**, **simplicity**, **defensiveness** and  **resilient**.
+Please focus on those four principles while writing code: **clarity**, **simplicity**, **defensiveness** and  **resilience**.
 
 - **Clarity**: write clear code that any developer can read and understand in one go.
 
