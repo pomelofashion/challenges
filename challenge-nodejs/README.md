@@ -33,7 +33,7 @@ In test mode, no network connection is made to 3rd party servers.
 
 In the first part of this assignment, you'll need to create a [HapiJS application](https://hapi.dev/).
 
-- The application needs to have an endpoint that takes a body containing a `JSON` document following the format presented below under [Appendix 1 Input](#appendinx-1-input) as one of the parameters.
+- The application needs to have an endpoint that takes a body containing a `JSON` document following the format presented below under [Appendix 1 Input](#appendix-1-input) as one of the parameters.
 - Upon receiving a call, the [HapiJS](https://hapi.dev/) application should run an algorithm to turn the input into the format shown under [Appendix 2 Output](#appendix-2-output). The `JSON` document needs to be re-organized by moving children into the correct parents.
 - The application should then return the formatted document in a `JSON` document.
 
@@ -128,7 +128,7 @@ You'll need to write an algorithm in JavaScript in your [HapiJS](https://hapi.de
 
 #### Instructions
 
-Use the [GitHub Search API](https://developer.github.com/v3/guides/traversing-with-pagination/) with pagination to find all the repositories that match the query `nodejs`. Display results 10 by 10 in a view in the [HapiJS](https://hapi.dev/) application you built in Step 1. Results should be displayed in a table (it doesn't have to look good) and, the pagination should be fully functional on the front-end side.
+Use the [GitHub Search API](https://docs.github.com/en/free-pro-team@latest/rest/guides/traversing-with-pagination) with pagination to find all the repositories that match the query `nodejs`. Display results 10 by 10 in a view in the [HapiJS](https://hapi.dev/) application you built in Step 1. Results should be displayed in a table (it doesn't have to look good) and, the pagination should be fully functional on the front-end side.
 
 ### Guidelines
 
