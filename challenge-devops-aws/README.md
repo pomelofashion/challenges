@@ -21,20 +21,22 @@ Please focus on those four principles while writing code: **clarity**, **simplic
 
 ## The assignment
 
-Since we are heavy users of the Hashicorp Toolchain (Terraform, Vault, Consul and Packer). Your challenge will be to implement a set of infrastructure components on AWS using Terraform.
+Since we are heavy users of the Hashicorp Toolchain (Terraform, Vault, Consul and Packer), your challenge will be implementing a set of infrastructure components on AWS using Terraform.
 
-Specifically:
+#### Part 1
 
 * Create AWS API Gateway Resources
 * Connect to AWS SQS
-** Additionally create a Dead-letter Queue
+* Additionally create a Dead-letter Queue
 * Create a Lambda function that receives messages from said Queue via triggers
-** Forward messages to AWS Cloudwatch
-** Write messages AWS Kinesis into AWS Glue and AWS S3
+* Forward messages to AWS Cloudwatch
+* Write messages AWS Kinesis into AWS Glue and AWS S3
+
+#### Part 2
 
 * Create Postman collection that:
-** Sends messages successfully to API gateway and into SQS
-** Sends message failures into DLQ for Lambda and logs into AWS Cloudwatch
+* Sends messages successfully to API gateway and into SQS
+* Sends message failures into DLQ for Lambda and logs into AWS Cloudwatch
 
 Alternatively, if time permits, you can redesign the solution to be based on AWS EventBridge.
 
@@ -42,5 +44,4 @@ Alternatively, if time permits, you can redesign the solution to be based on AWS
 
 - Don't forget documentation 
 - Pay attention to linting/validating as well as formatting your HCL.
-- Ensure the infrastructure resources you're creating comply with secuirty best practices.
-
+- Ensure the infrastructure resources you're creating comply with security best practices.
