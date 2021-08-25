@@ -21,9 +21,8 @@ Please focus on those four principles while writing code: **clarity**, **simplic
 
 ## The assignment
 
-Including 3 parts:
-* Requirement analysis and test cases 
-* Experience and knowledge in Agile 
+Including 2 parts:
+* Requirement analysis and test cases
 * Automated test execution
 
 ### Part 1 : Analyst the requirements and create test scenarios
