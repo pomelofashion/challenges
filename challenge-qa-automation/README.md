@@ -26,7 +26,7 @@ Including 3 parts:
 * Experience and knowledge in Agile 
 * Automated test execution
 
-### Part 1 Analyst the requirements and create test scenarios
+### Part 1 : Analyst the requirements and create test scenarios
 
 Here are requirements for Ecommerce websites . Please do requirement analysis and create test cases for  these features.
 If you have any questions, please note and send them back with the assignment. Format of test cases is not fixed, please feel free to create your own. 
@@ -45,7 +45,7 @@ If you have any questions, please note and send them back with the assignment. F
 
 ![Alt text](/challenge-qa-automation/wireframe-qa-test.png?raw=true "Wireframe")
 
-### Part 3 : Automated test assignment
+### Part 2 : Automated test assignment
 
 The assignment is to ask the candidate to write code/test scripts to automate test execution. 
 
