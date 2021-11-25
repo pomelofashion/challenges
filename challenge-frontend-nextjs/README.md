@@ -1,4 +1,4 @@
-# Pomelo NodeJS Challenge
+# Pomelo ReactJS/NextJS Challenge
 
 Welcome to the Pomelo ReactJS/NextJS challenge!
 
