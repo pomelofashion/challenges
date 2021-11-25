@@ -29,7 +29,7 @@ In test mode, no network connection is made to 3rd party servers.
 
 #### Instructions
 
-Implement a website built with NextJS that displays the information retrieved from the API in the best way possible in terms of performance, UX and UI.
+Implement a website built with NextJS that displays the information retrieved from the [​New York Times API](https://developer.nytimes.com/) in the best way possible in terms of performance, UX and UI.
 
 **The following sections should be present:**
 - Homepage:​ list the most popular articles (Most Viewed by Section & Time Period)
