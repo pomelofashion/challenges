@@ -1,12 +1,12 @@
 # Pomelo Coding Challenges
 
-This repository houses the coding challenges for Pomelo. 
+This repository houses the coding challenges for Pomelo.
 These are small hands-on projects that are very relevant to the tasks you will be working on.
 
 ### Ground Rules
 
 * We prefer well-thought-out solutions over the quick-and-dirty kind. So take your time,
-  if you need it 
+  if you need it
 * Average completion time so far has been around one to two weeks
 * Submission is done via a [git format-patch](https://git-scm.com/docs/git-format-patch)
   Send your patch to the hiring team.
@@ -43,12 +43,8 @@ Pick the one that most suits the position you wish to apply.
 
 * Backend / NodeJS - [NodeJS](https://github.com/pomelofashion/challenges/tree/master/challenge-nodejs)
 * Backend / PHP - [PHP](https://github.com/pomelofashion/challenges/tree/master/challenge-php-laravel)
-<!-- * Backend / GoLang - [](https://github.com/pomelofashion/challenges/tree/challenge-golang)
-* Backend / Elixir - [](https://github.com/pomelofashion/challenges/tree/challenge-elixir)
-* Frontend / React - [](https://github.com/pomelofashion/challenges/tree/challenge-react)
-* Mobile App / iOS and Android - [](https://github.com/pomelofashion/challenges/tree/challenge-mobile)
-* Devops / K8s - [](https://github.com/pomelofashion/challenges/tree/challenge-devops)
-* Devops / Ansible - [](https://github.com/pomelofashion/challenges/tree/challenge-ansible)
--->
+* Frontend / NextJS/React - [](https://github.com/pomelofashion/challenges/tree/challenge-frontend-nextjs)
+* QA / Automation - [QA](https://github.com/pomelofashion/challenges/tree/master/challenge-qa-automation)
+* DevOps / AWS - [DevOps](https://github.com/pomelofashion/challenges/tree/master/challenge-devops-aws)
 
 ### Have fun, and we look forward to your submission!
