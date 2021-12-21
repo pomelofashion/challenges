@@ -43,8 +43,10 @@ Pick the one that most suits the position you wish to apply.
 
 * Backend / NodeJS - [NodeJS](https://github.com/pomelofashion/challenges/tree/master/challenge-nodejs)
 * Backend / PHP - [PHP](https://github.com/pomelofashion/challenges/tree/master/challenge-php-laravel)
-* Frontend / NextJS/React - [](https://github.com/pomelofashion/challenges/tree/challenge-frontend-nextjs)
+* Frontend / NextJS/React - [NextJS](https://github.com/pomelofashion/challenges/tree/challenge-frontend-nextjs)
 * QA / Automation - [QA](https://github.com/pomelofashion/challenges/tree/master/challenge-qa-automation)
 * DevOps / AWS - [DevOps](https://github.com/pomelofashion/challenges/tree/master/challenge-devops-aws)
+* iOS / Swift - [iOS](https://github.com/pomelofashion/challenges/tree/master/challenge-ios)
+* Android / Kotlin - [Android](https://github.com/pomelofashion/challenges/tree/master/challenge-android)
 
 ### Have fun, and we look forward to your submission!
