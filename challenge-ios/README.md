@@ -28,13 +28,12 @@ In test mode, no network connection is made to 3rd party servers.
 ## Evaluation Criteria
 1. Functionality: the app works as expected, no crashes.
 2. Code quality: architecture, design patterns, coding conventions, etc.
-3. Speed: candidate has 2 days to develop the app.
-4. We will evaluate process and achievement even if it’s not 100% finished.
-5. Any third party libraries are allowed.
+3. We will evaluate process and achievement even if it’s not 100% finished.
+4. Any third party libraries are allowed.
 
 ## The assignment
 
-Implement an iOS app with Swift that displays the information retrieved from the New [York Times API](https://https://developer.nytimes.com/) in the best way possible in terms of performance, UX and UI.
+Implement an iOS app with Swift that displays the information retrieved from the New [York Times API](https://developer.nytimes.com/) in the best way possible in terms of performance, UX and UI.
 
 The following sections should be present:
 
