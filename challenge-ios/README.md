@@ -25,12 +25,6 @@ Note that we require you to add full test coverage and that all tests pass befor
 
 In test mode, no network connection is made to 3rd party servers.
 
-## Evaluation Criteria
-1. Functionality: the app works as expected, no crashes.
-2. Code quality: architecture, design patterns, coding conventions, etc.
-3. We will evaluate process and achievement even if it’s not 100% finished.
-4. Any third party libraries are allowed.
-
 ## The assignment
 
 Implement an iOS app with Swift that displays the information retrieved from the New [York Times API](https://developer.nytimes.com/) in the best way possible in terms of performance, UX and UI.
@@ -51,4 +45,5 @@ Notes:
 - The application should be responsive, it should work fine on various device models e.g. iPhone or iPad.
 
 ## Guidelines
-Don't forget documentation (inline comment, README, etc).
+- Don't forget documentation (inline comment, README, etc).
+- Any third party libraries are allowed
