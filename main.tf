@@ -1,5 +1,13 @@
+resource "aws_sqs_queue" "pomelo_challenge_dlt" {
+  name = "pomelo-challenge-dlt"
+}
+
 resource "aws_sqs_queue" "pomelo_challenge" {
   name = "pomelo-challenge"
+  redrive_policy = jsonencode({
+    deadLetterTargetArn = "${aws_sqs_queue.pomelo_challenge_dlt.arn}"
+    maxReceiveCount     = 3
+  })
 }
 
 module "pomelo_challenge" {
