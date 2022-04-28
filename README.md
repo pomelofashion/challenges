@@ -1,52 +1,47 @@
-# Pomelo Coding Challenges
+# Pomelo DevOps (AWS Serverless) Challenge
 
-This repository houses the coding challenges for Pomelo.
-These are small hands-on projects that are very relevant to the tasks you will be working on.
+Welcome to the Pomelo DevOps challenge!
 
-### Ground Rules
+## Principles & Ground Rules
 
-* We prefer well-thought-out solutions over the quick-and-dirty kind. So take your time,
-  if you need it
-* Average completion time so far has been around one to two weeks
-* Submission is done via a [git format-patch](https://git-scm.com/docs/git-format-patch)
-  Send your patch to the hiring team.
+Please focus on those four principles while writing code: **clarity**, **simplicity**, **defensiveness** and  **resilience**.
 
-### What to expect
+- **Clarity**: write clear code that any developer can read and understand in one go.
 
-We do understand that our coding challenges are time intensive and not always easy to
-execute. We do recognize and value the time and effort applicants put into their
-submission. Our Coding Challenges reflect some of the tasks and skills you'd need while
-working with us. We believe that these *take-home* challenges give you a deeper understanding of our product, what you'd be working on in the future and what level of commitment we look for in applicants.
+- **Simplicity**: write gimmick-free and straightforward code with no ambiguities.
 
-### What we look for
+- **Defensiveness**: cover edge cases and treat user inputs with care.
 
-Rather than a complex solution, which added a million features and added 1000's of lines of code, we look for:
+- **Resilience**: gracefully handling an error and unexpected behaviour.
 
-* **Clarity:** You can write clear code that any devs could read and understand in one go
-* **Simplicity:** You can write gimmick-free and straightforward code with no ambiguities
-* **Defensiveness:** You can cover edge cases and treat user inputs with care
-* **Resilience:** You can gracefully handling an error and unexpected behaviour
 
-### What happens after your submission
+* We prefer well-thought-out solutions over the quick-and-dirty kind. So take your time, if you need it. A swift rejection usually matches a rushed job.
+* Submission is made via a zip archive of your git-based project. 
+* Send your submission to [coding-challenge@pomelofashion.com](mailto:coding-challenge@pomelofashion.com?subject=devops-coding-challenge)
 
-Once you have submitted your solution by sending us the **git-format-patch**, our
-Engineers will review the code. Due to the number of submissions we receive, and
-time-intensive review process, it might take us **1 week** to give you feedback on the
-submission. Based on the feedback, we will invite you for a meeting to talk more about
-your submission and continue the recruitment process.
+## The assignment
 
-### Challenges
+Since we are heavy users of the Hashicorp Toolchain (Terraform, Vault, Consul and Packer), your challenge will be implementing a set of infrastructure components on AWS using Terraform.
 
-Pick the one that most suits the position you wish to apply.
+#### Part 1
 
-**Pomelo**
+* Create AWS API Gateway Resources
+* Connect to AWS SQS
+* Additionally create a Dead-letter Queue
+* Create a Lambda function that receives messages from said Queue via triggers
+* Forward messages to AWS Cloudwatch
+* Write messages AWS Kinesis into AWS Glue and AWS S3
 
-* Backend / NodeJS - [NodeJS](https://github.com/pomelofashion/challenges/tree/master/challenge-nodejs)
-* Backend / PHP - [PHP](https://github.com/pomelofashion/challenges/tree/master/challenge-php-laravel)
-* Frontend / NextJS/React - [NextJS](https://github.com/pomelofashion/challenges/tree/challenge-frontend-nextjs)
-* QA / Automation - [QA](https://github.com/pomelofashion/challenges/tree/master/challenge-qa-automation)
-* DevOps / AWS - [DevOps](https://github.com/pomelofashion/challenges/tree/master/challenge-devops-aws)
-* iOS / Swift - [iOS](https://github.com/pomelofashion/challenges/tree/master/challenge-ios)
-* Android / Kotlin - [Android](https://github.com/pomelofashion/challenges/tree/master/challenge-android)
+#### Part 2
 
-### Have fun, and we look forward to your submission!
+* Create Postman collection that:
+* Sends messages successfully to API gateway and into SQS
+* Sends message failures into DLQ for Lambda and logs into AWS Cloudwatch
+
+Alternatively, if time permits, you can redesign the solution to be based on AWS EventBridge.
+
+### Guidelines
+
+- Don't forget documentation 
+- Pay attention to linting/validating as well as formatting your HCL.
+- Ensure the infrastructure resources you're creating comply with security best practices.
