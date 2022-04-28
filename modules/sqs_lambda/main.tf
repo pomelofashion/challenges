@@ -13,8 +13,7 @@ resource "aws_lambda_function" "sqs_lambda" {
   filename         = data.archive_file.sqs_lambda.output_path
   source_code_hash = data.archive_file.sqs_lambda.output_base64sha256
 
-  timeout     = 30
-  memory_size = 128
+  timeout = 30
 
   depends_on = [
     aws_iam_role_policy_attachment.sqs_lambda
