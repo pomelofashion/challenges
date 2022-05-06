@@ -34,6 +34,7 @@ Since we are heavy users of the Hashicorp Toolchain (Terraform, Vault, Consul, N
 * Create secondary Evenbridge Rule to forward messages to AWS Cloudwatch
 
 
+##### Notes:
 
 - Don't forget documentation
 - Pay attention to linting/validating as well as formatting your HCL.
