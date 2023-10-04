@@ -17,7 +17,6 @@ Please focus on those four principles while writing code: **clarity**, **simplic
 
 * We prefer well-thought-out solutions over the quick-and-dirty kind. So take your time, if you need it. A swift rejection usually matches a rushed job.
 * Submission is made via a zip archive of your git-based project. 
-* Send your submission to [coding-challenge@pomelofashion.com](mailto:coding-challenge@pomelofashion.com?subject=nodejs-coding-challenge)
 
 ## Testing your implementation
 
